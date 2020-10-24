@@ -20,6 +20,7 @@
             el: '#app',
             data: data,
             render: (element) => {
+                // HERE:RENDERをつかう（属性指定）
                 return element("p" ,
                 { 'style' : 'font-siza:20pt; color:red;'},
                 data.message)
