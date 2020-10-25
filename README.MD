@@ -40,3 +40,11 @@ $ vue ui
 render は、画面表示の処理を複雑なのに対応できる
 
 仮想DOMが生成された後、実際のDOMが実装される
+
+Vue Componentで独自タグ作れるけど、Renderとどっちが良い？
+
+Computedとイベントハンドラの違い
+
+Vue Componentをわざわざ書かなくてもVueファイルで書く
+
+プロジェクトのindex.htmlはJSの処理がない
