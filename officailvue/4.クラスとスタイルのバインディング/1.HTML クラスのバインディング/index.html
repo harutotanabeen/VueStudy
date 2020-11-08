@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="example">
+            <div
+            class="static"
+            v-bind:class="{ active: isActive, 'text-danger': hasError }"
+            >data</div>
+            <!-- オブジェクト構文 -->
+            <div v-bind:class="classObject">data2</div>
+            <!-- 配列構文 -->
+            <div v-bind:class="[activeClass, errorClass]"></div>
+            <!-- 三項演算子式 -->
+            <div v-bind:class="[isActive ? activeClass : '', errorClass]">data3</div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
